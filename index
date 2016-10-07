@@ -23,8 +23,8 @@
 # Запуск x-server осуществляется командой startx
 
 # В конфигурационный файл i3 (.config/i3/config) дописываем
- # lock screen
- bindsym $mod+Control+1 exec i3lock
+ # lock screen 
+ bindsym $mod+Control+1 exec i3lock -t -i /home/be1yae8/.config/i3/lock.png
  # Добавляем поддержку русского языка клавиатурой
  exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggl
  # Добавляем параметры мониторов
