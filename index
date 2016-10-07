@@ -25,5 +25,7 @@
 # В конфигурационный файл i3 (.config/i3/config) дописываем
  # lock screen
  bindsym $mod+Control+1 exec i3lock
+ # Добавляем поддержку русского языка клавиатурой
  exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggl
+ # Добавляем параметры мониторов
  exec xrandr --output VGA1  --mode 1920x1080 --pos 0x0 --output HDMI1 --mode 1920x1080 --pos 1920x0
