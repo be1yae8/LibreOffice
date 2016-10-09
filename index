@@ -29,3 +29,7 @@
  exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggl
  # Добавляем параметры мониторов
  exec xrandr --output VGA1  --mode 1920x1080 --pos 0x0 --output HDMI1 --mode 1920x1080 --pos 1920x0
+ # Немного стилей 
+client.focused #262CCC #262CCC #EEEEEE
+focus_follows_mouse yes
+
