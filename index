@@ -25,15 +25,16 @@
 # В конфигурационный файл i3 (.config/i3/config) дописываем
  # lock screen 
  bindsym $mod+Control+1 exec i3lock -t -i /home/be1yae8/.config/i3/lock.png
+ 
  # Добавляем поддержку русского языка клавиатурой
- exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggl
+ exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle,led:scroll"
+
  # Добавляем параметры мониторов
  exec xrandr --output VGA1  --mode 1920x1080 --pos 0x0 --output HDMI1 --mode 1920x1080 --pos 1920x0
+ 
  # Немного стилей 
 client.focused #262CCC #262CCC #EEEEEE
 focus_follows_mouse yes
-
-
 new_window pixel 2
 new_float normal
 hide_edge_borders none
