@@ -1,1 +1,1 @@
-# Создание предварительного окружения на Ubuntu Server
+# Ubuntu Server + i3wm 
