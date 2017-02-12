@@ -1,0 +1,11 @@
+# other soft
+apt install libreoffice
+apt install nautilus
+apt install evince
+apt install vlc
+apt install nmap
+apt install gparted
+apt install gimp
+apt install htop
+apt install avidemux
+apt install transmageddon
