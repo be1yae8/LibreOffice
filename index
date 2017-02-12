@@ -1,29 +1,12 @@
-# Устанавливаем ОС Ubuntu Server
-# Поссле установки устанавливаем сл. программы
+# install i3wm
 apt install xorg
 apt install i3
 apt install chromium-browser
-apt install mc
 apt purge xterm
 apt install terminology
-  
 # Запуск x-server осуществляется командой startx
 
-# Дополнительные программы
-apt install libreoffice
-apt install nautilus
-apt install evince
-aptt install xtightvncviewer
-apt install vlc
-apt install smbclient
-apt install nmap
-apt install git
-apt install atom
-apt install gparted
-apt install gimp
-apt install htop
-apt install avidemux
-apt install transmageddon
+
 
 #RDP
 echo "deb http://pub.freerdp.com/repositories/deb/xenial/ freerdp-nightly main" >> /etc/apt/sources.list
