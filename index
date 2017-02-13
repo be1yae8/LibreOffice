@@ -4,15 +4,6 @@ apt install i3
 apt install chromium-browser
 apt purge xterm
 apt install terminology
+apt install gnome-screenshot
+
 # Запуск x-server осуществляется командой startx
-
-
-
-#RDP
-echo "deb http://pub.freerdp.com/repositories/deb/xenial/ freerdp-nightly main" >> /etc/apt/sources.list
-wget -O - http://pub.freerdp.com/repositories/ADD6BF6D97CE5D8D.asc | apt-key add -
-apt  update
-apt install freerdp-nightly
-ln -s /opt/freerdp-nightly/bin/xfreerdp /usr/local/bin/
-
-
