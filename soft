@@ -1,11 +1,30 @@
 # other soft
+
+# Office packeg
 apt install libreoffice
+
+# File manager
 apt install nautilus
+
+# View .pdf
 apt install evince
+
+# Video and music player
 apt install vlc
+
+# Hack
 apt install nmap
+apt install masscan
+
+# GNU parted
 apt install gparted
+
+# Edit foto & picture
 apt install gimp
+
+# Resources monitor
 apt install htop
+
+# Edit video
 apt install avidemux
 apt install transmageddon
