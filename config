@@ -141,5 +141,5 @@ new_float normal
 hide_edge_borders none
 #Add screenshot
 bindsym Print exec gnome-screenshot
-
+exec nitrogen --restore
 
