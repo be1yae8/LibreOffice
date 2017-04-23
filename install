@@ -5,5 +5,6 @@ apt install chromium-browser
 apt purge xterm
 apt install terminology
 apt install gnome-screenshot
+apt install nitrogen
 
 # Запуск x-server осуществляется командой startx
